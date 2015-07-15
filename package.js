@@ -12,12 +12,8 @@ Package.onUse(function (api) {
   api.versionsFrom('0.9.0');
 
   api.addFiles([
-      'mdl/_color-definitions.scss',
-      'mdl/_mixins.scss',
-      'mdl/_variables.scss',
-      'mdl/material-design-lite.scss',
-      'mdl/material-design-lite-grid.scss',
-      'mdl/mdlComponentHandler.js'
+      'mdl/material.css',
+      'mdl/material.js'
     ], 'client'
   );
 });
